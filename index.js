@@ -21,9 +21,10 @@ function inc(n) {
 function dec(n) {
   return n - 1
 }
- 
-function makeInt(n, 10) {
-  var a = parseInt('n', 10);
+
+var b = 10; 
+function makeInt(n, b) {
+  var a = parseInt('n', b);
   
   if (isNaN(a)) { return 0 }
   return a * 100;

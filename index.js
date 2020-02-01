@@ -30,5 +30,5 @@ function makeInt(n, 10) {
 }
 
 function preserveDecimal(n) {
-  return parseFloat('n')
+  return parseFloat(n) * 2.0 * Math.PI;
 }

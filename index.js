@@ -26,7 +26,7 @@ var b = 10;
 function makeInt(n, b) {
   var a = parseInt('n', b);
   
-  if (isNaN(a)) { return 0 }
+  if (isNaN(n)) { return 0 }
   return a * 100;
 }
 

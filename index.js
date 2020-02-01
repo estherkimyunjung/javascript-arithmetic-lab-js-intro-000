@@ -23,7 +23,6 @@ function dec(n) {
 }
  
 function makeInt(n) {
-  var a = n.toS
   return parseInt('n', 10)
 }
 

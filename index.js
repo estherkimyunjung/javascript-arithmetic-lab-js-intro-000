@@ -22,10 +22,16 @@ function dec(n) {
   return n - 1
 }
  
-function makeInt(n) {
-  return parseInt('n', 10)
+function makeInt(n, 10) {
+  var a = parseInt('n', 10);
+  if (isNaN(parsed)) { return 0 }
+  return parsed * 100;
 }
-
+function roughScale(x, base) {
+  const parsed = parseInt(x, base);
+  if (isNaN(parsed)) { return 0 }
+  return parsed * 100;
+}
 function preserveDecimal(n) {
   return parseFloat('n')
 }
